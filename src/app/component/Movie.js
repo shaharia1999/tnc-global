@@ -68,8 +68,8 @@ const Pagination=(page)=>{
 
   return (
     <div className=" relative">
-      <div className="md:flex justify-between mt-4 mb-2 sticky top-0 bg-black py-4 z-30 lg:px-20 md:px-10 px-5">
-        <div className="flex py-2 gap-x-4">
+      <div className=" md:flex justify-between mt-4 mb-2 sticky top-0 bg-black py-4 z-30 lg:px-20 md:px-10 px-5">
+        <div className="flex  py-2 gap-x-4">
         <label for="cars" className="text-white text-2xl font-semibold cursor-pointer">
         MOVIE LISTS
         </label>
@@ -84,7 +84,7 @@ const Pagination=(page)=>{
         </div>
         <div className='md:flex md:justify-center items-center mt-2 md:mt-0'>
           <input type="text"
-            className='px-3 py-2 outline-none '
+            className='px-3 py-2 outline-none w-full md:w-52 '
             placeholder="Search"
             value={search}
             onChange={(e) => Search(e.target.value)} />
