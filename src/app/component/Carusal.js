@@ -24,7 +24,7 @@ export function CarouselDefault() {
       {
         images.map((items,index)=>{
             return(
-                <div key={index} className="h-full w-full bg-red-500 ">
+                <div key={index} className="h-full w-full  ">
            <img src={items.item} alt='img' className="h-full w-full object-fill"/>
            </div>
             )
