@@ -19,7 +19,7 @@ export function CarouselDefault() {
         },
       ]
   return (
-    <Carousel autoplay={true} autoplayDelay={5000} transition={{ duration: 2 }} loop={true} className="rounded-xl">
+    <Carousel autoplay={true} autoplayDelay={5000} transition={{ duration: 2 }} loop={true} className="">
         
       {
         images.map((items,index)=>{
