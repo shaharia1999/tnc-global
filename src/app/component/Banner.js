@@ -2,7 +2,7 @@ import { CarouselDefault } from "./Carusal";
 import MovieData from "./DataFatching";
 const Banner = async () => {
     return (
-        <div className="h-[80vh] w-full">
+        <div className="md:h-[80vh] h-[50vh] w-full">
             <CarouselDefault/>
         </div>
     );
